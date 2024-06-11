@@ -7,7 +7,7 @@ These are basically small projects that i used when learning deep learning for i
 
 2  Gradient descent
 
--Gradient descent is a fundamental optimization algorithm used in deep learning to minimize the loss function and adjust the model's parameters (weights and biases) to achieve better performance. It is an iterative process that updates the parameters by moving them in the direction of the steepest descent, as defined by the gradient of the loss function with respect to the parameters.
+- Gradient descent is a fundamental optimization algorithm used in deep learning to minimize the loss function and adjust the model's parameters (weights and biases) to achieve better performance. It is an iterative process that updates the parameters by moving them in the direction of the steepest descent, as defined by the gradient of the loss function with respect to the parameters.
 
 3 Activation Function
 
