@@ -42,4 +42,9 @@ These are basically small projects that i used when learning deep learning for i
  4. Stochastic and Batch Gradient Descent
 
     I used a simple home prices (banglore dataset) to implement batch and stochastic gradient descent in python. Batch gradient descent goes through  all training samples in     forward pass to calculate cumulitive error and than we adjust weights using derivaties. In stochastic GD, we (randomly) pick one training sample, perform forward pass,       compute the error and immidiately adjust weights. So the key difference here is that to adjust weights batch GD will use all training samples where as stochastic GD will     use one randomly picked training sample
+5. Mini Batch GD
+
+   It is more like SGD
+   Instead of choosing one (randomly picked) training sample, use a batch of randomly picked training sample
+   Mini batch GD: we use a batch of m samples where 0 < m < n (where n is total number of training samples)
      
