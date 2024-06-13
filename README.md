@@ -39,5 +39,7 @@ These are basically small projects that i used when learning deep learning for i
        Pros: Allows a small gradient when 𝑥 < 0
        Cons: Requires tuning of the 𝛼 parameter
 
- 
+ 4. Stochastic and Batch Gradient Descent
+
+    I used a simple home prices (banglore dataset) to implement batch and stochastic gradient descent in python. Batch gradient descent goes through  all training samples in     forward pass to calculate cumulitive error and than we adjust weights using derivaties. In stochastic GD, we (randomly) pick one training sample, perform forward pass,       compute the error and immidiately adjust weights. So the key difference here is that to adjust weights batch GD will use all training samples where as stochastic GD will     use one randomly picked training sample
      
