@@ -5,8 +5,7 @@ These are basically small projects that I used when learning deep learning for i
 
 - The loss or cost function is a critical component in machine learning and deep learning models. It measures how well the model's predictions match the actual data. The goal of training is to minimize this function.
 
-
-2. Customer churn prediction is to measure why customers are leaving a business. This challenge is based on customer churn in telecom business. The Objective is to build a deep learning model to predict the churn and use precision,recall, f1-score to measure performance of our model
+2  Customer churn prediction is to measure why customers are leaving a business. This challenge is based on customer churn in telecom business. The Objective is to build a deep learning model to predict the churn and use precision,recall, f1-score to measure performance of our model
 
 3  Gradient descent
 
