@@ -44,7 +44,16 @@ These are basically small projects that I used when learning deep learning for i
  5. Stochastic and Batch Gradient Descent
 
     I used a simple home prices (banglore dataset) to implement batch and stochastic gradient descent in python. Batch gradient descent goes through  all training samples in     forward pass to calculate cumulitive error and than we adjust weights using derivaties. In stochastic GD, we (randomly) pick one training sample, perform forward pass,       compute the error and immidiately adjust weights. So the key difference here is that to adjust weights batch GD will use all training samples where as stochastic GD will     use one randomly picked training sample
-6. Mini Batch GD
+
+6. Precision is the ratio of correctly predicted positive observations to the total predicted positives. It answers the question: Of all the instances we predicted as 
+   positive, how many were actually positive?
+   Recall (also known as Sensitivity or True Positive Rate) is the ratio of correctly predicted positive observations to all observations in the actual class. It answers the 
+   question: Of all the instances that are actually positive, how many did we correctly identify as positive?
+   The F1 Score is the harmonic mean of precision and recall. It provides a single metric that balances both concerns, useful in situations where you want to balance 
+   precision and recall. 
+
+
+7. Mini Batch GD
 
    It is more like SGD
    Instead of choosing one (randomly picked) training sample, use a batch of randomly picked training sample
