@@ -6,7 +6,7 @@ These are basically small projects that I used when learning deep learning for i
 The loss or cost function is a critical component in machine learning and deep learning models. It measures how well the model's predictions match the actual data. The goal of training is to minimize this function.
 
 
-2. Customer churn prediction - is to measure why customers are leaving a business. This challenge is based on customer churn in telecom business. The Objective is to build a deep learning model to predict the churn and use precision,recall, f1-score to measure performance of our model
+2.Customer churn prediction - is to measure why customers are leaving a business. This challenge is based on customer churn in telecom business. The Objective is to build a deep learning model to predict the churn and use precision,recall, f1-score to measure performance of our model
 
 
 3. Dropout regularization
@@ -57,16 +57,16 @@ perform forward  pass, compute the error and immidiately adjust weights. So the 
 samples where as tochastic GD will use one randomly picked training sample
 
 8. Precision is the ratio of correctly predicted positive observations to the total predicted positives. It answers the question: Of all the instances we predicted as 
-   positive, how many were actually positive?
-   Recall (also known as Sensitivity or True Positive Rate) is the ratio of correctly predicted positive observations to all observations in the actual class. It answers 
-   the question: Of all the instances that are actually positive, how many did we correctly identify as positive?
-   The F1 Score is the harmonic mean of precision and recall. It provides a single metric that balances both concerns, useful in situations where you want to balance 
-   precision and recall. 
+positive, how many were actually positive?
+Recall (also known as Sensitivity or True Positive Rate) is the ratio of correctly predicted positive observations to all observations in the actual class. It answers 
+he question: Of all the instances that are actually positive, how many did we correctly identify as positive?
+The F1 Score is the harmonic mean of precision and recall. It provides a single metric that balances both concerns, useful in situations where you want to balance 
+precision and recall. 
 
 
 9. Mini Batch GD
 
-   It is more like SGD
-   Instead of choosing one (randomly picked) training sample, use a batch of randomly picked training sample
-   Mini batch GD: we use a batch of m samples where 0 < m < n (where n is total number of training samples)
+It is more like SGD
+Instead of choosing one (randomly picked) training sample, use a batch of randomly picked training sample
+Mini batch GD: we use a batch of m samples where 0 < m < n (where n is total number of training samples)
      
