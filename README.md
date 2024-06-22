@@ -9,7 +9,7 @@ The loss or cost function is a critical component in machine learning and deep l
 2.Customer churn prediction - is to measure why customers are leaving a business. This challenge is based on customer churn in telecom business. The Objective is to build a deep learning model to predict the churn and use precision,recall, f1-score to measure performance of our model
 
 
-3.Dropout regularization
+3.Dropout regularization 
 
 
 Dropout is a regularization technique used in neural networks to prevent overfitting.Overfitting occurs when a model learns the noise in the training data rather than the actual patterns, resulting in poor performance on new, unseen data.
@@ -56,11 +56,11 @@ samples in forward pass to calculate cumulitive error and than we adjust weights
 perform forward  pass, compute the error and immidiately adjust weights. So the key difference here is that to adjust weights batch GD will use all training 
 samples where as tochastic GD will use one randomly picked training sample
 
-8. Precision is the ratio of correctly predicted positive observations to the total predicted positives. It answers the question: Of all the instances we predicted as 
+8. Precision: is the ratio of correctly predicted positive observations to the total predicted positives. It answers the question: Of all the instances we predicted as 
 positive, how many were actually positive?
-Recall (also known as Sensitivity or True Positive Rate) is the ratio of correctly predicted positive observations to all observations in the actual class. It answers 
+Recall (also known as Sensitivity or True Positive Rate): is the ratio of correctly predicted positive observations to all observations in the actual class. It answers 
 he question: Of all the instances that are actually positive, how many did we correctly identify as positive?
-The F1 Score is the harmonic mean of precision and recall. It provides a single metric that balances both concerns, useful in situations where you want to balance 
+The F1 Score: is the harmonic mean of precision and recall. It provides a single metric that balances both concerns, useful in situations where you want to balance 
 precision and recall. 
 
 
