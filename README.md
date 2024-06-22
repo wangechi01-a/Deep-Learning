@@ -51,10 +51,10 @@ In deep learning, an activation function is a mathematical function applied to t
 
  6. Stochastic and Batch Gradient Descent
     
-      I used a simple home prices (banglore dataset) to implement batch and stochastic gradient descent in python. Batch gradient descent goes through  all training 
-      samples in forward pass to calculate cumulitive error and than we adjust weights using derivaties. In stochastic GD, we (randomly) pick one training sample, 
-      perform forward  pass, compute the error and immidiately adjust weights. So the key difference here is that to adjust weights batch GD will use all training 
-      samples where as tochastic GD will use one randomly picked training sample
+I used a simple home prices (banglore dataset) to implement batch and stochastic gradient descent in python. Batch gradient descent goes through  all training 
+samples in forward pass to calculate cumulitive error and than we adjust weights using derivaties. In stochastic GD, we (randomly) pick one training sample, 
+perform forward  pass, compute the error and immidiately adjust weights. So the key difference here is that to adjust weights batch GD will use all training 
+samples where as tochastic GD will use one randomly picked training sample
 
 8. Precision is the ratio of correctly predicted positive observations to the total predicted positives. It answers the question: Of all the instances we predicted as 
    positive, how many were actually positive?
