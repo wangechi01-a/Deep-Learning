@@ -5,6 +5,7 @@ These are basically small projects that I used when learning deep learning for i
 
 -The loss or cost function is a critical component in machine learning and deep learning models. It measures how well the model's predictions match the actual data. The goal of training is to minimize this function.
 
+
 2. Customer churn prediction - is to measure why customers are leaving a business. This challenge is based on customer churn in telecom business. The Objective is to build a deep learning model to predict the churn and use precision,recall, f1-score to measure performance of our model
 
 
@@ -16,11 +17,11 @@ For each training iteration, each neuron (excluding the output neurons) has a pr
 
 4  Gradient descent
 
-- Gradient descent is a fundamental optimization algorithm used in deep learning to minimize the loss function and adjust the model's parameters (weights and biases) to achieve better performance. It is an iterative process that updates the parameters by moving them in the direction of the steepest descent, as defined by the gradient of the loss function with respect to the parameters.
+Gradient descent is a fundamental optimization algorithm used in deep learning to minimize the loss function and adjust the model's parameters (weights and biases) to achieve better performance. It is an iterative process that updates the parameters by moving them in the direction of the steepest descent, as defined by the gradient of the loss function with respect to the parameters.
 
 5 Activation Function
 
-- In deep learning, an activation function is a mathematical function applied to the output of a neural network layer. It determines whether a neuron should be activated or not, effectively introducing non-linearity into the model. This non-linearity allows the network to learn and model complex data patterns. Here are some common activation functions used in deep learning:
+In deep learning, an activation function is a mathematical function applied to the output of a neural network layer. It determines whether a neuron should be activated or not, effectively introducing non-linearity into the model. This non-linearity allows the network to learn and model complex data patterns. Here are some common activation functions used in deep learning:
    - Sigmoid:
      
        Range: 0 to 1
@@ -49,8 +50,10 @@ For each training iteration, each neuron (excluding the output neurons) has a pr
        Cons: Requires tuning of the 𝛼 parameter
 
  6. Stochastic and Batch Gradient Descent
-
-    I used a simple home prices (banglore dataset) to implement batch and stochastic gradient descent in python. Batch gradient descent goes through  all training samples in     forward pass to calculate cumulitive error and than we adjust weights using derivaties. In stochastic GD, we (randomly) pick one training sample, perform forward pass,       compute the error and immidiately adjust weights. So the key difference here is that to adjust weights batch GD will use all training samples where as stochastic GD will     use one randomly picked training sample
+   I used a simple home prices (banglore dataset) to implement batch and stochastic gradient descent in python. Batch gradient descent goes through  all training samples 
+   in forward pass to calculate cumulitive error and than we adjust weights using derivaties. In stochastic GD, we (randomly) pick one training sample, perform forward 
+   pass, compute the error and immidiately adjust weights. So the key difference here is that to adjust weights batch GD will use all training samples where as 
+   stochastic GD will use one randomly picked training sample
 
 7. Precision is the ratio of correctly predicted positive observations to the total predicted positives. It answers the question: Of all the instances we predicted as 
    positive, how many were actually positive?
