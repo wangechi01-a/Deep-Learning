@@ -1,5 +1,5 @@
 # deep-learning-Projects
-These are basically small projects that I used when learning deep learning for indepth understanding:  
+These are basically projects that I used when learning deep learning for indepth understanding:  
  
 1.Loss or cost function
 
