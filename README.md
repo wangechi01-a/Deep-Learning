@@ -56,7 +56,7 @@ samples in forward pass to calculate cumulitive error and than we adjust weights
 perform forward  pass, compute the error and immidiately adjust weights. So the key difference here is that to adjust weights batch GD will use all training 
 samples where as tochastic GD will use one randomly picked training sample
 
-8. Precision: is the ratio of correctly predicted positive observations to the total predicted positives. It answers the question: Of all the instances we predicted as 
+7. Precision: is the ratio of correctly predicted positive observations to the total predicted positives. It answers the question: Of all the instances we predicted as 
 positive, how many were actually positive?
 Recall (also known as Sensitivity or True Positive Rate): is the ratio of correctly predicted positive observations to all observations in the actual class. It answers 
 he question: Of all the instances that are actually positive, how many did we correctly identify as positive?
@@ -64,7 +64,7 @@ The F1 Score: is the harmonic mean of precision and recall. It provides a single
 precision and recall. 
 
 
-9. Mini Batch GD
+8. Mini Batch GD
 
 It is more like SGD
 Instead of choosing one (randomly picked) training sample, use a batch of randomly picked training sample
